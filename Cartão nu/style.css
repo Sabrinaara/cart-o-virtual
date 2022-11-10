@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,600&family=Sarala&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+body {
+    background: linear-gradient(90deg, rgb(222, 222, 233), rgb(98, 12, 124));
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.container {
+    background-color: #820ad1 ;
+    padding: 1em;
+    border-radius: 10px;
+    width: 15em;
+    height: 25em;
+    box-shadow: 5px 8px 8px #000;
+}
+
+.master-card{
+    width: 30%;
+}
+
+.chip {
+    width: 40%;
+    transform: rotate(90deg);
+}
+
+.logo-nu {
+  
+    width: 35%;
+  
+
+}
+
+ .content {
+    display: flex;
+    flex-direction: column;
+    height:  100%;
+
+ }
+
+
+.header {
+    height: 70%;
+}
+
+
+.box-img {
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer{
+    height: 30%;
+    
+}
+
+.footer p {
+    margin-left: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
